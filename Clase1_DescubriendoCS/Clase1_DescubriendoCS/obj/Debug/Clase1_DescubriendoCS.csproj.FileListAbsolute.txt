@@ -1,0 +1,7 @@
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\bin\Debug\Clase1_DescubriendoCS.exe.config
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\bin\Debug\Clase1_DescubriendoCS.exe
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\bin\Debug\Clase1_DescubriendoCS.pdb
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\obj\Debug\Clase1_DescubriendoCS.csprojAssemblyReference.cache
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\obj\Debug\Clase1_DescubriendoCS.csproj.CoreCompileInputs.cache
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\obj\Debug\Clase1_DescubriendoCS.exe
+Z:\Repositorios\2019-2020-2 ISC-210-T-001\Clase1_DescubriendoCS\Clase1_DescubriendoCS\obj\Debug\Clase1_DescubriendoCS.pdb

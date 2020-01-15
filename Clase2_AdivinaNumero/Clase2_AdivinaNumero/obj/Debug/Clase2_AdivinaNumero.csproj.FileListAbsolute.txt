@@ -1,0 +1,7 @@
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\bin\Debug\Clase2_AdivinaNumero.exe.config
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\bin\Debug\Clase2_AdivinaNumero.exe
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\bin\Debug\Clase2_AdivinaNumero.pdb
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\obj\Debug\Clase2_AdivinaNumero.csprojAssemblyReference.cache
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\obj\Debug\Clase2_AdivinaNumero.csproj.CoreCompileInputs.cache
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\obj\Debug\Clase2_AdivinaNumero.exe
+Z:\Repositorios\isc210_2-2019-2020\Clase2_AdivinaNumero\Clase2_AdivinaNumero\obj\Debug\Clase2_AdivinaNumero.pdb
