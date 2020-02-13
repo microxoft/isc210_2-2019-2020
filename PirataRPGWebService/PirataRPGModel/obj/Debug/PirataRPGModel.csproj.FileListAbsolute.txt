@@ -1,0 +1,12 @@
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\PirataRPGModel.dll.config
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\PirataRPGModel.dll
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\PirataRPGModel.pdb
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\EntityFramework.dll
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\EntityFramework.xml
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\obj\Debug\PirataRPGModel.csprojAssemblyReference.cache
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\obj\Debug\PirataRPGModel.csproj.CoreCompileInputs.cache
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\obj\Debug\PirataRPGModel.csproj.CopyComplete
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\obj\Debug\PirataRPGModel.dll
+Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGModel\obj\Debug\PirataRPGModel.pdb
