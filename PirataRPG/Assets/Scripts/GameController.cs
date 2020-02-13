@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour
         if (CurrentLives <= 0)
             return;
 
-        Instantiate(BallPrefab, new Vector3(Random.Range(MINX, MAXX), 6, 0), Quaternion.identity);
+        Instantiate(BallPrefab, new Vector3(Random.Range(MINX, MAXX), 6, 0.5f), Quaternion.identity);
     }
 
     public int IncrementScore()
@@ -45,7 +45,7 @@ public class GameController : MonoBehaviour
         if(CurrentLives == 0)
         {
             // Game over!!
-            StartCoroutine("SendScore");
+            //StartCoroutine("SendScore");
             GameOverText.SetActive(true);
         }
 

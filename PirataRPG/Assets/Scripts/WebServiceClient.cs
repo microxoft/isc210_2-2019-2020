@@ -31,7 +31,7 @@ public class WebServiceClient : MonoBehaviour
 
         www = UnityWebRequest.Put(webServiceURL, JsonUtility.ToJson(newScore));
         www.SetRequestHeader("Content-Type", "application/json");
-        //yield return www.SendWebRequest();
+        yield return www.SendWebRequest();
 
         Debug.Log(www.downloadHandler.text);
     }

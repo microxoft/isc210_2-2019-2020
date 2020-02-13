@@ -15,5 +15,6 @@ public class DeadZoneController : MonoBehaviour
     {
         gameController.DecrementLife();
         Destroy(other.gameObject);
+        AudioManager.Instance.PlaySoundEffect(AudioManager.SoundEffect.Explode);
     }
 }
