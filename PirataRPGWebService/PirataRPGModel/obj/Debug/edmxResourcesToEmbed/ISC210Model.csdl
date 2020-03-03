@@ -10,5 +10,19 @@
   </EntityType>
   <EntityContainer Name="ISC210Entities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="GravilotaScore" EntityType="Self.GravilotaScore" />
+    <EntitySet Name="EssenceScore" EntityType="ISC210Model.EssenceScore" />
   </EntityContainer>
+  <EntityType Name="EssenceScore">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PlayerName" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="BlueScore" Type="Double" Nullable="false" />
+    <Property Name="GreenScore" Type="Double" Nullable="false" />
+    <Property Name="RedScore" Type="Double" Nullable="false" />
+    <Property Name="YellowScore" Type="Double" Nullable="false" />
+    <Property Name="OrangeScore" Type="Double" Nullable="false" />
+    <Property Name="PurpleScore" Type="Double" Nullable="false" />
+  </EntityType>
 </Schema>
