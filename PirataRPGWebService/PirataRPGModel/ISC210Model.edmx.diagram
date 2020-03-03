@@ -6,6 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="e75d054d28e54ac6987c0e5c711e7b37" Name="Diagram1">
         <EntityTypeShape EntityType="ISC210Model.GravilotaScore" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ISC210Model.EssenceScore" Width="1.5" PointX="7.375" PointY="0.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

@@ -83,7 +83,6 @@ Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\bin\S
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\bin\Antlr3.Runtime.pdb
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\obj\Debug\PirataRPGWebService.csprojAssemblyReference.cache
-Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\obj\Debug\PirataRPGWebService.csproj.CoreCompileInputs.cache
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\obj\Debug\PirataRPGWebService.csproj.CopyComplete
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\obj\Debug\PirataRPGWebService.dll
 Z:\Repositorios\isc210_2-2019-2020\PirataRPGWebService\PirataRPGWebService\obj\Debug\PirataRPGWebService.pdb
