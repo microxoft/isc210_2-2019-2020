@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<level>
+  <map>
+	<row><![CDATA[AABBFBAABABBAABBFBABBABBB]]></row>
+	<row><![CDATA[BJJBIBBAAAABJJJBIABBABJJA]]></row>
+	<row><![CDATA[BJJAIBBAAJAAAJJAIAAAJJJAB]]></row>
+	<row><![CDATA[BAAAIBABAAABAJJJIAAJJJBAB]]></row>
+	<row><![CDATA[EHHHCHHHHHHDJJJBIAJJJBABB]]></row>
+	<row><![CDATA[ABABIBAAJABBBJAAIABABBAAA]]></row>
+	<row><![CDATA[BJJAIABBABAABBAAIAAABAAAA]]></row>
+	<row><![CDATA[BJJBIABEHHHHHHHHCHHHHHHDB]]></row>
+	<row><![CDATA[AJJBIJBBAABABABBIBAABFBJB]]></row>
+	<row><![CDATA[AABBIJFAAABAJBABIBJBBIAJJ]]></row>
+	<row><![CDATA[AAAAGJIABAAJJABAIBJJBIBJJ]]></row>
+	<row><![CDATA[BAAAAJIBBAJJJJJAIABJBIAJJ]]></row>
+	<row><![CDATA[ABABJJIBBJJJJJBBIAAABIAAB]]></row>
+	<row><![CDATA[BJJJJAIBJJJJJJJBIEHHHCDAB]]></row>
+	<row><![CDATA[JJJJAAIABJJJJJJAIABAAIAJJ]]></row>
+	<row><![CDATA[JJJJABIABBAJJJAAGAAAAIBJJ]]></row>
+	<row><![CDATA[JJJJJECHHHHHHHHHHHDABIBBJ]]></row>
+	<row><![CDATA[JJJBBBIABBABABBAAAABBGFBJ]]></row>
+	<row><![CDATA[JJJABAIBBBAJJJJJJJAJJBIBA]]></row>
+	<row><![CDATA[JJJBBBIBAJJJJJJJJJJJAAIAB]]></row>
+	<row><![CDATA[JJJBABIAAJJABAJJJBAABAIBB]]></row>
+	<row><![CDATA[JJJAABIAAJABBAEHHHHHHHCHD]]></row>
+	<row><![CDATA[JJJAABGBABBAAABBAAABABIBA]]></row>
+	<row><![CDATA[AJJAAAAAABAAABBABBAAABIAA]]></row>
+	<row><![CDATA[BBBBAABAABABABBABBBABBGAB]]></row>
+  </map>
+  <characters>
+    <character id="0" uniqueObjectName="Player" prefabName="Player" posX="32" posY="17" tag="Player"/>
+    <character id="1" uniqueObjectName="Morah" prefabName="Morah" posX="38" posY="11" tag="NPC"/>
+    <character id="2" uniqueObjectName="Lionel" prefabName="Lionel" posX="22" posY="11" tag="NPC"/>
+  </characters>
+  <items>
+    <item id="0" uniqueObjectName="Chest1" prefabName="ChestBanana" posX="1" posY="36" tag="EssenceItem"/>
+    <item id="1" uniqueObjectName="Chest2" prefabName="ChestCherry" posX="30" posY="39" tag="EssenceItem"/>
+    <item id="2" uniqueObjectName="Chest3" prefabName="ChestGrape" posX="57" posY="39" tag="EssenceItem"/>
+  </items>
+</level>
+
