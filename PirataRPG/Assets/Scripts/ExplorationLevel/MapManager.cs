@@ -7,6 +7,7 @@ using UnityEngine;
 public class MapManager : MonoBehaviour
 {
     public GameObject Grass1, Grass2, RoadCross, RoadEndHor2, RoadEndHor2Left, RoadEndVer2, RoadEndVer2Down, RoadMiddleHor, RoadMiddleVer1, Tree;
+    public GameObject PlayerPrefab, MorahPrefab, LionelPrefab, Enemy1Prefab;
     XmlDocument xmlDoc;
     GameObject currentPrefab = null;
     XmlNode currentNode;
@@ -79,16 +80,21 @@ public class MapManager : MonoBehaviour
             switch(currentElement.Attributes["prefabName"].Value)
             {
                 case "Player":
-                    currentPrefab = Tree; // En vez de Tree, sería un caracter.
+                    currentPrefab = PlayerPrefab; // En vez de Tree, sería un caracter.
                     break;
                 case "Morah":
+                    currentPrefab = MorahPrefab;
                     break;
                 case "Lionel":
+                    currentPrefab = LionelPrefab;
+                    break;
+                case "Enemy1":
+                    currentPrefab = Enemy1Prefab;
                     break;
             }
             newElement = Instantiate(currentPrefab,
                 new Vector3(Convert.ToSingle(currentElement.Attributes["posX"].Value),
-                Convert.ToSingle(currentElement.Attributes["posY"].Value)),
+                -Convert.ToSingle(currentElement.Attributes["posY"].Value)),
                 Quaternion.identity);
             newElement.name = currentElement.Attributes["uniqueObjectName"].Value;
         }

@@ -252,6 +252,14 @@ MonoBehaviour:
   RoadMiddleVer1: {fileID: 6791400647964156581, guid: 02450af15db3c474b9724c4c9c8fd5c1,
     type: 3}
   Tree: {fileID: 6104402250938855978, guid: bd3b0e9fe60103f4a8b320b6a1781838, type: 3}
+  PlayerPrefab: {fileID: 8723605771410252683, guid: e61223b814780644e919bef84dbdce1f,
+    type: 3}
+  MorahPrefab: {fileID: 8567761289205981054, guid: 3aa2d0222e16d124f8ac81ddbfa5c8db,
+    type: 3}
+  LionelPrefab: {fileID: 7669892368756856883, guid: 62f650ad3c67f6b469090139dc636840,
+    type: 3}
+  Enemy1Prefab: {fileID: 6485948218068452641, guid: fcd1f3e5f73e66d4abb7102f8fcea6a8,
+    type: 3}
 --- !u!102 &2018513530
 TextMesh:
   serializedVersion: 3

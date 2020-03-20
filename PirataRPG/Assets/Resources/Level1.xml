@@ -28,9 +28,15 @@
 	<row><![CDATA[BBBBAABAABABABBABBBABBGAB]]></row>
   </map>
   <characters>
-    <character id="0" uniqueObjectName="Player" prefabName="Player" posX="32" posY="17" tag="Player"/>
-    <character id="1" uniqueObjectName="Morah" prefabName="Morah" posX="38" posY="11" tag="NPC"/>
-    <character id="2" uniqueObjectName="Lionel" prefabName="Lionel" posX="22" posY="11" tag="NPC"/>
+    <character id="0" uniqueObjectName="Player" prefabName="Player" posX="16" posY="7" tag="Player"/>
+    <character id="1" uniqueObjectName="Morah" prefabName="Morah" posX="12" posY="7" tag="NPC"/>
+    <character id="2" uniqueObjectName="Lionel" prefabName="Lionel" posX="19" posY="7" tag="NPC"/>
+	<character id="3" uniqueObjectName="Enemy1" prefabName="Enemy1" posX="21" posY="13" tag="Enemy"/>
+	<character id="4" uniqueObjectName="Enemy2" prefabName="Enemy1" posX="16" posY="16" tag="Enemy"/>
+	<character id="5" uniqueObjectName="Enemy3" prefabName="Enemy1" posX="4" posY="4" tag="Enemy"/>
+	<character id="6" uniqueObjectName="Enemy4" prefabName="Enemy1" posX="6" posY="16" tag="Enemy"/>
+	<character id="7" uniqueObjectName="Enemy5" prefabName="Enemy1" posX="22" posY="21" tag="Enemy"/>
+	<character id="8" uniqueObjectName="Enemy6" prefabName="Enemy1" posX="7" posY="2" tag="Enemy"/>
   </characters>
   <items>
     <item id="0" uniqueObjectName="Chest1" prefabName="ChestBanana" posX="1" posY="36" tag="EssenceItem"/>
