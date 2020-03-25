@@ -10,8 +10,16 @@ public class MapManager : MonoBehaviour
     public GameObject PlayerPrefab, MorahPrefab, LionelPrefab, Enemy1Prefab;
     XmlDocument xmlDoc;
     GameObject currentPrefab = null;
+    Transform cellsContainer, charactersContainer;
     XmlNode currentNode;
     XmlNodeList nodeList;
+
+    private void Awake()
+    {
+        cellsContainer = GameObject.Find("Cells").transform;
+        charactersContainer = GameObject.Find("Characters").transform;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -62,7 +70,8 @@ public class MapManager : MonoBehaviour
                         currentPrefab = Tree;
                         break;
                 }
-                Instantiate(currentPrefab, new Vector3(j, -i), Quaternion.identity);
+                currentPrefab = Instantiate(currentPrefab, new Vector3(j, -i), Quaternion.identity);
+                currentPrefab.transform.SetParent(cellsContainer);
             }
         }
 
@@ -97,6 +106,13 @@ public class MapManager : MonoBehaviour
                 -Convert.ToSingle(currentElement.Attributes["posY"].Value)),
                 Quaternion.identity);
             newElement.name = currentElement.Attributes["uniqueObjectName"].Value;
+            newElement.transform.SetParent(charactersContainer);
+
+            if(newElement.tag == "Player")
+            {
+                Camera.main.transform.SetParent(newElement.transform);
+                Camera.main.transform.localPosition = new Vector3(0, 0, Camera.main.transform.localPosition.z);
+            }
         }
     }
 }
