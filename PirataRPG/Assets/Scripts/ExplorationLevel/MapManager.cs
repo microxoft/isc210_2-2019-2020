@@ -7,10 +7,19 @@ using UnityEngine;
 public class MapManager : MonoBehaviour
 {
     public GameObject Grass1, Grass2, RoadCross, RoadEndHor2, RoadEndHor2Left, RoadEndVer2, RoadEndVer2Down, RoadMiddleHor, RoadMiddleVer1, Tree;
+    public GameObject PlayerPrefab, MorahPrefab, LionelPrefab, Enemy1Prefab;
     XmlDocument xmlDoc;
     GameObject currentPrefab = null;
+    Transform cellsContainer, charactersContainer;
     XmlNode currentNode;
     XmlNodeList nodeList;
+
+    private void Awake()
+    {
+        cellsContainer = GameObject.Find("Cells").transform;
+        charactersContainer = GameObject.Find("Characters").transform;
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -61,7 +70,8 @@ public class MapManager : MonoBehaviour
                         currentPrefab = Tree;
                         break;
                 }
-                Instantiate(currentPrefab, new Vector3(j, -i), Quaternion.identity);
+                currentPrefab = Instantiate(currentPrefab, new Vector3(j, -i), Quaternion.identity);
+                currentPrefab.transform.SetParent(cellsContainer);
             }
         }
 
@@ -79,18 +89,30 @@ public class MapManager : MonoBehaviour
             switch(currentElement.Attributes["prefabName"].Value)
             {
                 case "Player":
-                    currentPrefab = Tree; // En vez de Tree, sería un caracter.
+                    currentPrefab = PlayerPrefab; // En vez de Tree, sería un caracter.
                     break;
                 case "Morah":
+                    currentPrefab = MorahPrefab;
                     break;
                 case "Lionel":
+                    currentPrefab = LionelPrefab;
+                    break;
+                case "Enemy1":
+                    currentPrefab = Enemy1Prefab;
                     break;
             }
             newElement = Instantiate(currentPrefab,
                 new Vector3(Convert.ToSingle(currentElement.Attributes["posX"].Value),
-                Convert.ToSingle(currentElement.Attributes["posY"].Value)),
+                -Convert.ToSingle(currentElement.Attributes["posY"].Value)),
                 Quaternion.identity);
             newElement.name = currentElement.Attributes["uniqueObjectName"].Value;
+            newElement.transform.SetParent(charactersContainer);
+
+            if(newElement.tag == "Player")
+            {
+                Camera.main.transform.SetParent(newElement.transform);
+                Camera.main.transform.localPosition = new Vector3(0, 0, Camera.main.transform.localPosition.z);
+            }
         }
     }
 }

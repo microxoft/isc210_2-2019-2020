@@ -11,6 +11,7 @@ TagManager:
   - Red
   - Yellow
   - Enemy
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -22,7 +23,7 @@ TagManager:
   - 
   - terrain
   - tree
-  - 
+  - character
   - 
   - 
   - 
@@ -50,4 +51,7 @@ TagManager:
     locked: 0
   - name: Trees
     uniqueID: 1421452167
+    locked: 0
+  - name: Characters
+    uniqueID: 828050831
     locked: 0
