@@ -295,6 +295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a7c50cbc96c7694c9d5a12d2c2ed723, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CurrentLevel: Level1
   Grass1: {fileID: 448235881115695763, guid: 8bd991c4869a82543adeff8996c38b44, type: 3}
   Grass2: {fileID: 6498869860227188331, guid: d046514dc795404498b392c3a63fa1c4, type: 3}
   RoadCross: {fileID: 5880680269423184987, guid: 72cef87bf12642a49944f851b204af46,
@@ -320,6 +321,23 @@ MonoBehaviour:
     type: 3}
   Enemy1Prefab: {fileID: 6485948218068452641, guid: fcd1f3e5f73e66d4abb7102f8fcea6a8,
     type: 3}
+  PlatGrass1: {fileID: 0}
+  PlatGrass2: {fileID: 0}
+  PlatGrass3: {fileID: 0}
+  PlatGrass4: {fileID: 0}
+  PlatGrass5: {fileID: 0}
+  PlatGrass6: {fileID: 0}
+  PlatGrass7: {fileID: 0}
+  PlatGrass8: {fileID: 0}
+  PlatGrass9: {fileID: 0}
+  PlatGrass10: {fileID: 0}
+  PlatGrass11: {fileID: 0}
+  PlatGrass12: {fileID: 0}
+  PlatGrass13: {fileID: 0}
+  PlatGrass14: {fileID: 0}
+  PlatGrass15: {fileID: 0}
+  PlatGrass16: {fileID: 0}
+  PlatGrass17: {fileID: 0}
 --- !u!102 &2018513530
 TextMesh:
   serializedVersion: 3

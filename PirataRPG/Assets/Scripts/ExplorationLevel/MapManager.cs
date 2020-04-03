@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class MapManager : MonoBehaviour
 {
+    public string CurrentLevel;
     public GameObject Grass1, Grass2, RoadCross, RoadEndHor2, RoadEndHor2Left, RoadEndVer2, RoadEndVer2Down, RoadMiddleHor, RoadMiddleVer1, Tree;
     public GameObject PlayerPrefab, MorahPrefab, LionelPrefab, Enemy1Prefab;
     XmlDocument xmlDoc;
@@ -13,6 +14,9 @@ public class MapManager : MonoBehaviour
     Transform cellsContainer, charactersContainer;
     XmlNode currentNode;
     XmlNodeList nodeList;
+
+    // These is used in Platformer:
+    public GameObject PlatGrass1, PlatGrass2, PlatGrass3, PlatGrass4, PlatGrass5, PlatGrass6, PlatGrass7, PlatGrass8, PlatGrass9, PlatGrass10, PlatGrass11, PlatGrass12, PlatGrass13, PlatGrass14, PlatGrass15, PlatGrass16, PlatGrass17;
 
     private void Awake()
     {
@@ -24,7 +28,7 @@ public class MapManager : MonoBehaviour
     void Start()
     {
         xmlDoc = new XmlDocument();
-        xmlDoc.LoadXml(Resources.Load<TextAsset>("Level1").text);
+        xmlDoc.LoadXml(Resources.Load<TextAsset>(CurrentLevel).text);
         LoadMap();
     }
 
@@ -69,6 +73,59 @@ public class MapManager : MonoBehaviour
                     case 'J':
                         currentPrefab = Tree;
                         break;
+                    case 'a':
+                        currentPrefab = PlatGrass1;
+                        break;
+                    case 'b':
+                        currentPrefab = PlatGrass2;
+                        break;
+                    case 'c':
+                        currentPrefab = PlatGrass3;
+                        break;
+                    case 'd':
+                        currentPrefab = PlatGrass4;
+                        break;
+                    case 'e':
+                        currentPrefab = PlatGrass5;
+                        break;
+                    case 'f':
+                        currentPrefab = PlatGrass6;
+                        break;
+                    case 'g':
+                        currentPrefab = PlatGrass7;
+                        break;
+                    case 'h':
+                        currentPrefab = PlatGrass8;
+                        break;
+                    case 'i':
+                        currentPrefab = PlatGrass9;
+                        break;
+                    case 'j':
+                        currentPrefab = PlatGrass10;
+                        break;
+                    case 'k':
+                        currentPrefab = PlatGrass11;
+                        break;
+                    case 'l':
+                        currentPrefab = PlatGrass12;
+                        break;
+                    case 'm':
+                        currentPrefab = PlatGrass13;
+                        break;
+                    case 'n':
+                        currentPrefab = PlatGrass14;
+                        break;
+                    case 'o':
+                        currentPrefab = PlatGrass15;
+                        break;
+                    case 'p':
+                        currentPrefab = PlatGrass16;
+                        break;
+                    case 'q':
+                        currentPrefab = PlatGrass17;
+                        break;
+                    case ' ':
+                        continue;
                 }
                 currentPrefab = Instantiate(currentPrefab, new Vector3(j, -i), Quaternion.identity);
                 currentPrefab.transform.SetParent(cellsContainer);

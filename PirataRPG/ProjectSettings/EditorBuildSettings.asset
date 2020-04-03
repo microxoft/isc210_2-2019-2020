@@ -8,4 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gravilota.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Taberna.unity
+    guid: c4845f5c3594ce7468a80ffa1f044ee3
+  - enabled: 1
+    path: Assets/Scenes/ExplorationLevel.unity
+    guid: b96009e338186994b8da117a400b7c9d
+  - enabled: 1
+    path: Assets/Scenes/Esencia.unity
+    guid: 1755958c4e8515845a85f0fdf48305d2
+  - enabled: 1
+    path: Assets/Scenes/Canoncito.unity
+    guid: 238b935531dba0f439cb652143220885
   m_configObjects: {}

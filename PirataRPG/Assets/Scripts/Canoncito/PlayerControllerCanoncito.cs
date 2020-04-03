@@ -29,11 +29,20 @@ public class PlayerControllerCanoncito : MonoBehaviour
         // Position changing:
         _deltaPos.y = _deltaPos.z = 0;
         _deltaPos.x = Input.GetAxis("Horizontal") * _speedX * Time.deltaTime;
-        gameObject.transform.Translate(_deltaPos);
-        gameObject.transform.position = new Vector3(
+        //gameObject.transform.Translate(_deltaPos);
+        /*gameObject.transform.position = new Vector3(
             Mathf.Clamp(gameObject.transform.position.x, MINX, MAXX),
             gameObject.transform.position.y,
-            gameObject.transform.position.z);
+            gameObject.transform.position.z);*/
+        if(Input.GetAxis("Horizontal") != 0)
+            //GetComponent<Rigidbody>().velocity = new Vector3(Input.GetAxis("Horizontal") * _speedX * Time.deltaTime, 0);
+            // Otra forma:
+            GetComponent<Rigidbody>().AddForce(new Vector3(Input.GetAxis("Horizontal") * 500f * Time.deltaTime, 0));
+        if (Input.GetButtonDown("Jump"))
+            //GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x, 15f);
+            // Otra forma:
+            GetComponent<Rigidbody>().AddForce(new Vector3(0, 500f));
+
 
         // Calculating angle:
         _mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerControllerExplorationLevel : MonoBehaviour
 {
     Vector3 _movementSpeed = new Vector3(5, 5),
-        _runningSpeed = new Vector3(15, 15);
+        _runningSpeed = new Vector3(9, 9);
     Rigidbody _rigidbody;
     Vector3 _newPosition = new Vector3();
     Animator _animator;
@@ -30,7 +30,7 @@ public class PlayerControllerExplorationLevel : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         if(!_isEnemy)
         {
@@ -39,7 +39,8 @@ public class PlayerControllerExplorationLevel : MonoBehaviour
 
             _animator.SetFloat("speed", _newPosition.magnitude);
 
-            _rigidbody.MovePosition(transform.position + _newPosition * Time.deltaTime);
+            //_rigidbody.MovePosition(transform.position + _newPosition * Time.deltaTime);
+            _rigidbody.velocity = _newPosition;
 
             _animator.SetBool("attack", Input.GetButton("Fire1"));
 
